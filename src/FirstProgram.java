@@ -1,5 +1,10 @@
 public class FirstProgram {
     public static void main (String[] args) {
-        System.out.println("Hi my name is Rohit Agrahari");
+        // Comment
+        int num = 2;
+        System.out.println("Table of 2:");
+        for(int i = 1; i<=10; i++){
+            System.out.println(num + "*" + i + " = " + (num*i));
+        }
     }
 }
